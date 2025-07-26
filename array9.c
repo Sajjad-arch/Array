@@ -1,32 +1,41 @@
+
 #include <stdio.h>
 int main(void)
 
 {
-    int i,n;
+    int i,n,m;
 
     printf("Enter the size of an array: ");
     scanf("%d",&n);
     int arr[n];
 
 
-    printf("Enter the %d elments: \n",n);
-    for(i=1; i<=n; i++)
+    printf("Enter the number of elements elments: \n");
+    scanf("%d",&m);
+
+
+    printf("Enter the elements: ");
+    for(i=1; i<=m; i++)
     {
         scanf("%d",&arr[i]);
     }
 
-     n--;
+
+
+
+     m--;
 
 
    printf("New array\n");
-    for(i=1; i<=n; i++)
+    for(i=1; i<=m; i++)
     {
-       printf("%d \n",arr[i]);
+       printf("%d ",arr[i]);
 
     }
 
     return 0;
 
-}
 
+
+}
 
