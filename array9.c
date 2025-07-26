@@ -15,9 +15,6 @@ int main(void)
         scanf("%d",&arr[i]);
     }
 
-
-
-
      n--;
 
 
@@ -29,8 +26,6 @@ int main(void)
     }
 
     return 0;
-
-
 
 }
 
